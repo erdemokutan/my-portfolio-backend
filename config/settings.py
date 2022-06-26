@@ -16,9 +16,9 @@ SECRET_KEY = env('SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['erdemokutan.netlify.app']
+ALLOWED_HOSTS = ['https://erdemokutan-api.herokuapp.com/']
 
 
 # Application definition
