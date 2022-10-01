@@ -1,1 +1,1 @@
-web: gunicorn  wsgi:erdemokutan-api
+gunicorn  wsgi:erdemokutan-api
